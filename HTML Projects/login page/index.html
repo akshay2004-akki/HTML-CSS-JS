@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    
+    <nav>
+        <div class="navbar hiden">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Conatct us</li>
+                <li class="login">Log in</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="menu hidee"><i class="fa fa-bars"></i></div>
+
+    <div class="container hide">
+        <div class="logo">
+            <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <section class="box" id="box">
+            <div class="boxx">
+                <form class="myform">
+                    <p class="holders">Name :</p>
+                    <div id="border">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <br>
+                    <p class="holders">Email :</p>
+                    <div id="border">
+                        <input type="e-mail" name="email" placeholder="Email" required>
+                    </div>
+                    <br>
+                    <p class="holder">Password : </p>
+                    <div id="border">
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <br>
+                    <p class="overlay hidden">Invalid Username or password !</p>
+                    <div class="btn overlay2 hidden">
+                        <button><a href="https://akshayport.netlify.app">Login</a></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <p class="option hide">Don't have an account ? <a class="sign" href="#">Sign in</a></p>
+    <script src="script.js"></script>
+</body>
+</html>
