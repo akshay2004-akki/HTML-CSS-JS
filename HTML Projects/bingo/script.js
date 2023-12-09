@@ -22,6 +22,8 @@ function getRandomUniqueNumber(min, max, usedNumbers) {
         const randomNumber = getRandomUniqueNumber(1, 25, usedNumbers);
         box.innerText = randomNumber;
         box.disabled=false;
+        h2.innerText='____';
+        h1.innerText='Letters will appear here';
     })
     usedNumbers=[];
     checkWinner();
