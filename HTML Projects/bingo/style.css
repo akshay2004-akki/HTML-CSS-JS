@@ -1,0 +1,38 @@
+main{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 5px;
+}
+.box{
+    height: 55px;
+    width: 55px;
+    font-size: 32;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #111;
+    background-color: lightgoldenrodyellow;
+}
+.reset{
+    position: relative;
+    top: 20px;
+    padding: 9px;
+    font-size: 21px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red;
+    background-color: #111;
+    color: lavender;
+}
